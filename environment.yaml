@@ -1,0 +1,10 @@
+name: jupyterdask
+channels:
+ - conda-forge
+dependencies:
+ - python=3.11
+ - bokeh=3.2.2  # https://github.com/dask/dask-labextension/issues/270
+ - dask-labextension
+ - dask[complete]
+ - dask-jobqueue
+ - jupyterlab
