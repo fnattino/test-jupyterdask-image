@@ -24,3 +24,4 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
         DOCKER_REGISTRY: ghcr.io
         IMAGE_NAME: ${{ github.repository }}
+        ADDITIONAL_TAG: ${{ github.ref_name }}
